@@ -95,7 +95,7 @@ include_directories("${NVBIO_SOURCE_ROOT}/contrib")
 #include_directories("${CMAKE_BINARY_DIR}/contrib/zlib-1.2.7")
 include_directories("${NVBIO_SOURCE_ROOT}/contrib/crc")
 include_directories("${NVBIO_SOURCE_ROOT}/contrib/bamtools")
-include_directories("${NVBIO_SOURCE_ROOT}/contrib/cub")
+#include_directories("${NVBIO_SOURCE_ROOT}/contrib/cub")
 include_directories(SYSTEM "${NVBIO_SOURCE_ROOT}/contrib/moderngpu/include")
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -iquote ${CMAKE_CURRENT_SOURCE_DIR}")
